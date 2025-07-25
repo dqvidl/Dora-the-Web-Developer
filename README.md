@@ -1,4 +1,4 @@
-# HTML/CSS Block Code Tutorial
+# Dora the Web Developer - Interactive HTML/CSS Tutorial Platform
 
 A modern, interactive platform for learning HTML and CSS through visual block-based coding. This application allows users to build websites by dragging and dropping blocks, while simultaneously learning the actual HTML and CSS code behind their creations.
 
@@ -10,7 +10,9 @@ A modern, interactive platform for learning HTML and CSS through visual block-ba
 - **Code View**: Toggle between block view and actual HTML/CSS code
 - **Resource Library**: Comprehensive reference for HTML tags and CSS properties
 - **Accessibility Features**: Designed with accessibility in mind for all users
+- **High Contrast Mode**: Enhanced accessibility with persistent high contrast support
 - **Responsive Design**: Works on desktop, tablet, and mobile devices
+- **Modern UI/UX**: Clean, intuitive interface with dark mode support
 
 ## Getting Started
 
@@ -82,3 +84,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Next.js](https://nextjs.org/) - The React framework
 - [Tailwind CSS](https://tailwindcss.com/) - The CSS framework
 - All contributors and supporters of the project
+
