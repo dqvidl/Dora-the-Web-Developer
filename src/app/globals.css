@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 15, 23, 42;
+    --background-end-rgb: 30, 41, 59;
+  }
+  
+  .bg-white {
+    background-color: #1e293b !important;
+    color: white !important;
+  }
+  
+  .bg-gray-50 {
+    background-color: #0f172a !important;
+  }
+  
+  .bg-gray-100 {
+    background-color: #1e293b !important;
+  }
+  
+  .text-gray-800 {
+    color: #e2e8f0 !important;
+  }
+  
+  .text-gray-600 {
+    color: #cbd5e1 !important;
+  }
+  
+  .border-gray-300 {
+    border-color: #475569 !important;
+  }
+  
+  .text-gray-700 {
+    color: #cbd5e1 !important;
+  }
+  
+  .text-gray-800 {
+    color: #e2e8f0 !important;
+  }
+  
+  .text-gray-900 {
+    color: #f1f5f9 !important;
+  }
+  
+  .bg-gray-200 {
+    background-color: #334155 !important;
+  }
+  
+  .bg-blue-50 {
+    background-color: #1e293b !important;
+  }
+  
+  .bg-yellow-50 {
+    background-color: #422006 !important;
+  }
+  
+  .bg-green-50 {
+    background-color: #052e16 !important;
+  }
+  
+  .border-blue-200 {
+    border-color: #1e40af !important;
+  }
+  
+  .border-yellow-200 {
+    border-color: #d97706 !important;
+  }
+  
+  .border-green-200 {
+    border-color: #16a34a !important;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #f8fafc; /* Tailwind slate-50 */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+svg[display='none'] {
+  display: none;
+}
+
+.blocklyHtmlInput {
+  color: black;
+}
+
+.blocklySvg {
+  background-color: #f8fafc !important;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.blocklyToolboxDiv {
+  background-color: #e2e8f0 !important;
+  border-radius: 8px 0 0 8px;
+  border-right: 2px solid #cbd5e1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .blocklySvg {
+    background-color: #1e293b !important;
+    border: 1px solid #475569;
+  }
+  
+  .blocklyToolboxDiv {
+    background-color: #0f172a !important;
+    border-right: 2px solid #475569;
+  }
+  
+  .blocklyText {
+    fill: #e2e8f0 !important;
+  }
+  
+  .blocklyHtmlInput {
+    color: #e2e8f0 !important;
+    background-color: #1e293b !important;
+  }
+}
+
+/* Modern block styling */
+.blocklyBlockCanvas .blocklyPath {
+  stroke-width: 2px;
+}
+
+.blocklySelected > .blocklyPath {
+  stroke: #3b82f6 !important;
+  stroke-width: 3px;
+}
+
+/* Improved toolbox styling */
+.blocklyTreeLabel {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+}
+
+.blocklyTreeRow:hover {
+  background-color: rgba(59, 130, 246, 0.1) !important;
+}
+
+/* Smooth animations - only for non-dragging states */
+.blocklyPath:not(.blocklyDragging) {
+  transition: stroke 0.2s ease;
+}
+
+/* Remove transitions during dragging for smooth performance */
+.blocklyDragging * {
+  transition: none !important;
+}
+
+/* Improve dragging visual feedback */
+.blocklyDragging {
+  opacity: 0.8;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
