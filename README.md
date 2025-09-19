@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HTML/CSS Block Code Tutorial
 
 A modern, interactive platform for learning HTML and CSS through visual block-based coding. This application allows users to build websites by dragging and dropping blocks, while simultaneously learning the actual HTML and CSS code behind their creations.
