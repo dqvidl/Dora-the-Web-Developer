@@ -14,7 +14,7 @@ A modern, interactive platform for learning HTML and CSS through visual block-ba
 
 ## Getting Started
 
-[[dora-the-web-developer.vercel.app](https://dora-the-web-developer.vercel.app/tutorials)]
+[dora-the-web-developer.vercel.app](https://dora-the-web-developer.vercel.app/tutorials)
 
 ### Prerequisites
 
