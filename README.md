@@ -76,12 +76,3 @@ This application is built with accessibility in mind:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
-
-- [Blockly](https://developers.google.com/blockly) - The block programming library
-- [Next.js](https://nextjs.org/) - The React framework
-- [Tailwind CSS](https://tailwindcss.com/) - The CSS framework
-- All contributors and supporters of the project
-=======
-# Dora-the-Web-Developer
->>>>>>> 58571d9469734567aa7c06ab092a5b84aca184c7
