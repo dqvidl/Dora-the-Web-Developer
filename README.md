@@ -14,6 +14,8 @@ A modern, interactive platform for learning HTML and CSS through visual block-ba
 
 ## Getting Started
 
+[Try Dora the Web Developer](dora-the-web-developer.vercel.app)
+
 ### Prerequisites
 
 - Node.js 18.0.0 or higher
