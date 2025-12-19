@@ -74,7 +74,4 @@ This application is built with accessibility in mind:
 - Skip to content links
 - ARIA attributes for enhanced screen reader experience
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
